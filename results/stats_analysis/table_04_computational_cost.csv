@@ -1,0 +1,6 @@
+cleaning_name,corrupt_time,cleaning_time,eval_time,total_time
+0_Corrupted,1.785,0.0,120.513,122.298
+1_Basic,1.785,11.376,117.39,130.552
+2_Heuristic,1.785,5.218,103.938,110.941
+3_Semantic,1.785,23.217,99.622,124.625
+4_ModelAware,1.785,411.386,89.282,502.453

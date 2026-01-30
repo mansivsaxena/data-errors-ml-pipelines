@@ -1,0 +1,10 @@
+experiment,0_Corrupted_accuracy,1_Basic_accuracy,2_Heuristic_accuracy,3_Semantic_accuracy,4_ModelAware_accuracy,0_Corrupted_recovery,1_Basic_recovery,2_Heuristic_recovery,3_Semantic_recovery,4_ModelAware_recovery
+01_missing_text,0.418,0.421,0.512,0.419,0.437,0.0,3.279,96.299,1.23,19.365
+02_broken_chars,0.503,0.508,0.506,0.491,0.533,0.0,38.645,23.741,-90.04,240.239
+03_swapped_text,0.442,0.445,0.444,0.446,0.479,0.0,3.81,2.852,5.238,50.884
+04_missing_labels,0.515,0.518,0.516,0.516,0.539,0.0,4747.518,1347.046,1122.141,35390.591
+05_swapped_labels,0.47,0.476,0.472,0.478,0.505,0.0,13.636,4.52,16.851,78.16
+06_combined_broken_chars_missing_text,0.48,0.484,0.505,0.474,0.506,0.0,11.127,70.374,-17.606,74.225
+07_combined_swap_text_labels,0.462,0.467,0.463,0.465,0.497,0.0,8.42,0.564,4.257,66.225
+08_heavy_missing,0.431,0.434,0.51,0.431,0.45,0.0,3.475,93.537,0.59,22.422
+09_all_corruptions,0.461,0.465,0.478,0.459,0.491,0.0,7.136,30.29,-3.429,55.051

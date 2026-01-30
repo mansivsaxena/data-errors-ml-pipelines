@@ -1,0 +1,6 @@
+cleaning_name,n_before,n_after,pct_data_affected
+0_Corrupted,100000,97222,3.0
+1_Basic,100000,97222,3.0
+2_Heuristic,100000,88248,12.0
+3_Semantic,100000,97222,3.0
+4_ModelAware,100000,97222,3.0

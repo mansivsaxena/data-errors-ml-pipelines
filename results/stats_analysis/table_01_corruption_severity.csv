@@ -1,0 +1,10 @@
+experiment,baseline_acc,corrupted_acc,accuracy_drop
+01_missing_text,0.515,0.418,0.098
+08_heavy_missing,0.515,0.431,0.085
+03_swapped_text,0.515,0.442,0.074
+09_all_corruptions,0.515,0.461,0.054
+07_combined_swap_text_labels,0.515,0.462,0.053
+05_swapped_labels,0.515,0.47,0.045
+06_combined_broken_chars_missing_text,0.515,0.48,0.035
+02_broken_chars,0.515,0.503,0.013
+04_missing_labels,0.515,0.515,0.0

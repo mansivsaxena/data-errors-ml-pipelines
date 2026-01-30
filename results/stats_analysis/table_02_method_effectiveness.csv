@@ -1,0 +1,6 @@
+cleaning_name,accuracy,f1,recovery_pct
+0_Corrupted,0.465,0.461,0.0
+1_Basic,0.469,0.465,537.45
+2_Heuristic,0.489,0.486,185.469
+3_Semantic,0.464,0.461,115.47
+4_ModelAware,0.493,0.487,3999.685

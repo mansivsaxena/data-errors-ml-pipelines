@@ -1,0 +1,2 @@
+timestamp,dataset_size,train_size,test_size,baseline_accuracy,eval_time,accuracy,precision,recall,f1,mae
+2026-01-27T18:20:26.481876,100000,80000,20000,0.51525,177.0932740750004,0.51525,0.5081472030012532,0.51525,0.5107717701619177,0.64
