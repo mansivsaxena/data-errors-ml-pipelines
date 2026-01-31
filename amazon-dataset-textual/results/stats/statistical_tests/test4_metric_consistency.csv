@@ -1,0 +1,10 @@
+experiment,acc_improved,f1_improved,mae_improved,n_metrics_improved
+01_missing_text,1,1,0,2
+02_broken_chars,1,1,1,3
+03_swapped_text,1,1,1,3
+04_missing_labels,1,1,0,2
+05_swapped_labels,1,1,1,3
+06_combined_broken_chars_missing_text,1,1,1,3
+07_combined_swap_text_labels,1,1,1,3
+08_heavy_missing,1,1,1,3
+09_all_corruptions,1,1,1,3
