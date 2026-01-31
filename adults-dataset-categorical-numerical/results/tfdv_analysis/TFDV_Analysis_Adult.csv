@@ -1,0 +1,11 @@
+experiment,n_rows,n_anomalies_total,type_violations,completeness_related,drift_related,tfdv_score,avg_missing_per_row
+adult_corrupted_text_2,48842,15,0,7,0,0.5034146962085906,1.0582899963146473
+corrupted_category_typo,22000,10,0,6,0,0.4511883639059736,1.526909090909091
+corrupted_missing_values,22000,10,0,6,0,0.4511883639059736,3.003681818181818
+gb_corrupted_category_default,22000,10,0,6,0,0.4511883639059736,3.5581363636363634
+gb_corrupted_category_typo,22000,10,0,6,0,0.4511883639059736,1.5087727272727274
+gb_corrupted_missing_values,22000,10,0,6,0,0.4511883639059736,4.463863636363636
+corrupted_category_shift,22000,4,0,0,0,0.0,1.5346363636363636
+corrupted_numerical,22000,4,0,0,0,0.0,1.5168636363636363
+gb_corrupted_category_shift,22000,4,0,0,0,0.0,1.5165
+gb_corrupted_numerical,22000,4,0,0,0,0.0,1.5119090909090909

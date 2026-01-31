@@ -1,0 +1,8 @@
+n_models,2.0
+n_cleaning_levels,5.0
+total_runs,75.0
+avg_accuracy_baseline,0.8224906192891864
+avg_accuracy_corrupted,0.6617569299522086
+avg_damage,0.14819503239858
+avg_recovery_pct_cleanlab,-6.018232432668569
+cleanlab_better_count,2.0

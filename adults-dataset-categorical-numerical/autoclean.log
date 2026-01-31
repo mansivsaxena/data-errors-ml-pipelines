@@ -1,0 +1,43 @@
+31-01-2026 23:29:45.61 - INFO - Started validation of input parameters...
+31-01-2026 23:29:45.61 - INFO - Completed validation of input parameters
+31-01-2026 23:29:45.61 - INFO - Started handling of duplicates... Method: "AUTO"
+31-01-2026 23:29:45.63 - DEBUG - Deletion of 664 duplicate(s) succeeded
+31-01-2026 23:29:45.63 - INFO - Completed handling of duplicates in 0.019116 seconds
+31-01-2026 23:29:45.63 - INFO - Started handling of missing values...
+31-01-2026 23:29:45.64 - INFO - Found a total of 46472 missing value(s)
+31-01-2026 23:29:45.65 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+31-01-2026 23:29:45.72 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+31-01-2026 23:29:53.16 - DEBUG - KNN imputation of 7838 value(s) succeeded for feature "workclass"
+31-01-2026 23:30:00.34 - DEBUG - KNN imputation of 7713 value(s) succeeded for feature "marital-status"
+31-01-2026 23:30:07.81 - DEBUG - KNN imputation of 7774 value(s) succeeded for feature "occupation"
+31-01-2026 23:30:15.06 - DEBUG - KNN imputation of 7763 value(s) succeeded for feature "relationship"
+31-01-2026 23:30:22.35 - DEBUG - KNN imputation of 7696 value(s) succeeded for feature "race"
+31-01-2026 23:30:29.40 - DEBUG - KNN imputation of 7688 value(s) succeeded for feature "sex"
+31-01-2026 23:30:29.40 - INFO - Completed handling of missing values in 43.767383 seconds
+31-01-2026 23:30:29.40 - INFO - Started handling of outliers... Method: "WINZ"
+31-01-2026 23:30:31.88 - DEBUG - Outlier imputation of 2454 value(s) succeeded for feature "age"
+31-01-2026 23:30:35.68 - DEBUG - Outlier imputation of 3281 value(s) succeeded for feature "education-num"
+31-01-2026 23:30:36.97 - DEBUG - Outlier imputation of 1112 value(s) succeeded for feature "capital-gain"
+31-01-2026 23:30:38.34 - DEBUG - Outlier imputation of 1090 value(s) succeeded for feature "capital-loss"
+31-01-2026 23:30:41.36 - DEBUG - Outlier imputation of 3253 value(s) succeeded for feature "hours-per-week"
+31-01-2026 23:30:41.36 - INFO - Completed handling of outliers in 11.961795 seconds
+31-01-2026 23:30:41.36 - INFO - Started conversion of DATETIME features... Granularity: s
+31-01-2026 23:30:41.37 - INFO - Completed conversion of DATETIME features in 0.0117 seconds
+31-01-2026 23:30:41.37 - INFO - Started encoding categorical features... Method: "AUTO"
+31-01-2026 23:30:41.38 - DEBUG - Encoding to ONEHOT succeeded for feature "relationship"
+31-01-2026 23:30:41.39 - DEBUG - Encoding to LABEL succeeded for feature "occupation"
+31-01-2026 23:30:41.40 - DEBUG - Encoding to ONEHOT succeeded for feature "race"
+31-01-2026 23:30:41.41 - DEBUG - Encoding to ONEHOT succeeded for feature "income"
+31-01-2026 23:30:41.41 - DEBUG - Encoding to ONEHOT succeeded for feature "marital-status"
+31-01-2026 23:30:41.42 - DEBUG - Encoding to ONEHOT succeeded for feature "sex"
+31-01-2026 23:30:41.43 - DEBUG - Encoding to ONEHOT succeeded for feature "workclass"
+31-01-2026 23:30:41.43 - INFO - Completed encoding of categorical features in 0.057373 seconds
+31-01-2026 23:30:41.43 - INFO - Started feature type conversion...
+31-01-2026 23:30:41.47 - DEBUG - Conversion to type FLOAT succeeded for feature "age"
+31-01-2026 23:30:41.50 - DEBUG - Conversion to type FLOAT succeeded for feature "education-num"
+31-01-2026 23:30:41.52 - DEBUG - Conversion to type FLOAT succeeded for feature "capital-gain"
+31-01-2026 23:30:41.55 - DEBUG - Conversion to type FLOAT succeeded for feature "capital-loss"
+31-01-2026 23:30:41.57 - DEBUG - Conversion to type FLOAT succeeded for feature "hours-per-week"
+31-01-2026 23:30:41.58 - DEBUG - Conversion to type INT succeeded for feature "occupation_lab"
+31-01-2026 23:30:41.58 - INFO - Completed feature type conversion for 6 feature(s) in 0.142253 seconds
+31-01-2026 23:30:41.58 - INFO - AutoClean process completed in 55.984028 seconds

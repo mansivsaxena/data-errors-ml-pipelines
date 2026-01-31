@@ -1,0 +1,35 @@
+{
+  "n_experiments": 10,
+  "mean_tfdv_score": 0.27593565157384586,
+  "median_tfdv_score": 0.4511883639059736,
+  "top_5_by_score": [
+    {
+      "experiment": "adult_corrupted_text_2",
+      "tfdv_score": 0.5034146962085906,
+      "n_anomalies_total": 15
+    },
+    {
+      "experiment": "corrupted_category_typo",
+      "tfdv_score": 0.4511883639059736,
+      "n_anomalies_total": 10
+    },
+    {
+      "experiment": "corrupted_missing_values",
+      "tfdv_score": 0.4511883639059736,
+      "n_anomalies_total": 10
+    },
+    {
+      "experiment": "gb_corrupted_category_default",
+      "tfdv_score": 0.4511883639059736,
+      "n_anomalies_total": 10
+    },
+    {
+      "experiment": "gb_corrupted_category_typo",
+      "tfdv_score": 0.4511883639059736,
+      "n_anomalies_total": 10
+    }
+  ],
+  "schema_path": "/content/drive/MyDrive/adults-dataset-categorical-numerical/results/tfdv_analysis/baseline_schema.pbtxt",
+  "csv_path": "/content/drive/MyDrive/adults-dataset-categorical-numerical/results/tfdv_analysis/TFDV_Analysis_Adult.csv",
+  "out_dir": "/content/drive/MyDrive/adults-dataset-categorical-numerical/results/tfdv_analysis"
+}

@@ -1,0 +1,600 @@
+baseline {
+  feature {
+    name: "age"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: FLOAT
+    presence {
+      min_count: 1
+    }
+  }
+  feature {
+    name: "workclass"
+    type: BYTES
+    domain: "workclass"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "education-num"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: FLOAT
+    presence {
+      min_count: 1
+    }
+  }
+  feature {
+    name: "marital-status"
+    type: BYTES
+    domain: "marital-status"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "occupation"
+    type: BYTES
+    domain: "occupation"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "relationship"
+    type: BYTES
+    domain: "relationship"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "race"
+    type: BYTES
+    domain: "race"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "sex"
+    type: BYTES
+    domain: "sex"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-gain"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: FLOAT
+    presence {
+      min_count: 1
+    }
+  }
+  feature {
+    name: "capital-loss"
+    type: FLOAT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "hours-per-week"
+    type: FLOAT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "income"
+    type: BYTES
+    domain: "income"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "age_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "age_is_negative"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "education-num_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "education-num_is_negative"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-gain_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-gain_is_negative"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-loss_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-loss_is_negative"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "hours-per-week_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "hours-per-week_is_negative"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "workclass_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "marital-status_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "occupation_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "relationship_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "race_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "sex_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "total_missing_features"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  string_domain {
+    name: "workclass"
+    value: "?"
+    value: "Federal-gov"
+    value: "Local-gov"
+    value: "Never-worked"
+    value: "Private"
+    value: "Self-emp-inc"
+    value: "Self-emp-not-inc"
+    value: "State-gov"
+    value: "Without-pay"
+    value: "nan"
+  }
+  string_domain {
+    name: "marital-status"
+    value: "Divorced"
+    value: "Married-AF-spouse"
+    value: "Married-civ-spouse"
+    value: "Married-spouse-absent"
+    value: "Never-married"
+    value: "Separated"
+    value: "Widowed"
+  }
+  string_domain {
+    name: "occupation"
+    value: "?"
+    value: "Adm-clerical"
+    value: "Armed-Forces"
+    value: "Craft-repair"
+    value: "Exec-managerial"
+    value: "Farming-fishing"
+    value: "Handlers-cleaners"
+    value: "Machine-op-inspct"
+    value: "Other-service"
+    value: "Priv-house-serv"
+    value: "Prof-specialty"
+    value: "Protective-serv"
+    value: "Sales"
+    value: "Tech-support"
+    value: "Transport-moving"
+    value: "nan"
+  }
+  string_domain {
+    name: "relationship"
+    value: "Husband"
+    value: "Not-in-family"
+    value: "Other-relative"
+    value: "Own-child"
+    value: "Unmarried"
+    value: "Wife"
+  }
+  string_domain {
+    name: "race"
+    value: "Amer-Indian-Eskimo"
+    value: "Asian-Pac-Islander"
+    value: "Black"
+    value: "Other"
+    value: "White"
+  }
+  string_domain {
+    name: "sex"
+    value: "Female"
+    value: "Male"
+  }
+  string_domain {
+    name: "income"
+    value: "<=50K"
+    value: ">50K"
+  }
+}
+anomaly_info {
+  key: "capital-loss"
+  value {
+    description: "The feature has a shape, but it\'s not always present (if the feature is nested, then it should always be present at each nested level) or its value lengths vary. The feature was present in fewer examples than expected: minimum fraction = 1.000000, actual = 0.700227"
+    severity: ERROR
+    short_description: "Multiple errors"
+    reason {
+      type: INVALID_FEATURE_SHAPE
+      short_description: "Feature shape dropped"
+      description: "The feature has a shape, but it\'s not always present (if the feature is nested, then it should always be present at each nested level) or its value lengths vary."
+    }
+    reason {
+      type: FEATURE_TYPE_LOW_FRACTION_PRESENT
+      short_description: "Column dropped"
+      description: "The feature was present in fewer examples than expected: minimum fraction = 1.000000, actual = 0.700227"
+    }
+    path {
+      step: "capital-loss"
+    }
+  }
+}
+anomaly_info {
+  key: "hours-per-week"
+  value {
+    description: "The feature has a shape, but it\'s not always present (if the feature is nested, then it should always be present at each nested level) or its value lengths vary. The feature was present in fewer examples than expected: minimum fraction = 1.000000, actual = 0.700818"
+    severity: ERROR
+    short_description: "Multiple errors"
+    reason {
+      type: INVALID_FEATURE_SHAPE
+      short_description: "Feature shape dropped"
+      description: "The feature has a shape, but it\'s not always present (if the feature is nested, then it should always be present at each nested level) or its value lengths vary."
+    }
+    reason {
+      type: FEATURE_TYPE_LOW_FRACTION_PRESENT
+      short_description: "Column dropped"
+      description: "The feature was present in fewer examples than expected: minimum fraction = 1.000000, actual = 0.700818"
+    }
+    path {
+      step: "hours-per-week"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status"
+  value {
+    description: "Examples contain values missing from the schema: Diorced (<1%), Divoced (<1%), Divorcd (<1%), Divorce (<1%), Divored (<1%), Divrced (<1%), Dvorced (<1%), Maried-AF-spouse (<1%), Maried-civ-spouse (<1%), Maried-spouse-absent (<1%), Marred-AF-spouse (<1%), Marred-civ-spouse (<1%), Marred-spouse-absent (<1%), Marrid-AF-spouse (<1%), Marrid-civ-spouse (<1%), Marrid-spouse-absent (<1%), Marrie-AF-spouse (<1%), Marrie-civ-spouse (<1%), Marrie-spouse-absent (<1%), Married-A-spouse (<1%), Married-AF-pouse (<1%), Married-AF-souse (<1%), Married-AF-spose (<1%), Married-AF-spoue (<1%), Married-AF-spous (<1%), Married-AF-spuse (<1%), Married-AFspouse (<1%), Married-F-spouse (<1%), Married-ci-spouse (<1%), Married-civ-pouse (<1%), Married-civ-souse (<1%), Married-civ-spose (<1%), Married-civ-spoue (<1%), Married-civ-spous (<1%), Married-civ-spuse (<1%), Married-civspouse (<1%), Married-cv-spouse (<1%), Married-iv-spouse (<1%), Married-pouse-absent (<1%), Married-souse-absent (<1%), Married-spose-absent (<1%), Married-spoue-absent (<1%), Married-spous-absent (<1%), Married-spouse-abent (<1%), Married-spouse-absen (<1%), Married-spouse-abset (<1%), Married-spouse-absnt (<1%), Married-spouse-asent (<1%), Married-spouse-bsent (<1%), Married-spouseabsent (<1%), Married-spuse-absent (<1%), MarriedAF-spouse (<1%), Marriedciv-spouse (<1%), Marriedspouse-absent (<1%), Mrried-AF-spouse (<1%), Mrried-civ-spouse (<1%), Mrried-spouse-absent (<1%), Neer-married (<1%), Neve-married (<1%), Never-arried (<1%), Never-maried (<1%), Never-marred (<1%), Never-marrid (<1%), Never-marrie (<1%), Never-mrried (<1%), Nevermarried (<1%), Nevr-married (<1%), Nver-married (<1%), Searated (<1%), Sepaated (<1%), Separaed (<1%), Separatd (<1%), Separate (<1%), Separted (<1%), Seprated (<1%), Sparated (<1%), Wdowed (<1%), Widoed (<1%), Widowd (<1%), Widowe (<1%), Widwed (<1%), Wiowed (<1%), arried-AF-spouse (<1%), arried-civ-spouse (<1%), arried-spouse-absent (<1%), eparated (<1%), ever-married (<1%), idowed (<1%), ivorced (<1%), nan (~50%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Diorced (<1%), Divoced (<1%), Divorcd (<1%), Divorce (<1%), Divored (<1%), Divrced (<1%), Dvorced (<1%), Maried-AF-spouse (<1%), Maried-civ-spouse (<1%), Maried-spouse-absent (<1%), Marred-AF-spouse (<1%), Marred-civ-spouse (<1%), Marred-spouse-absent (<1%), Marrid-AF-spouse (<1%), Marrid-civ-spouse (<1%), Marrid-spouse-absent (<1%), Marrie-AF-spouse (<1%), Marrie-civ-spouse (<1%), Marrie-spouse-absent (<1%), Married-A-spouse (<1%), Married-AF-pouse (<1%), Married-AF-souse (<1%), Married-AF-spose (<1%), Married-AF-spoue (<1%), Married-AF-spous (<1%), Married-AF-spuse (<1%), Married-AFspouse (<1%), Married-F-spouse (<1%), Married-ci-spouse (<1%), Married-civ-pouse (<1%), Married-civ-souse (<1%), Married-civ-spose (<1%), Married-civ-spoue (<1%), Married-civ-spous (<1%), Married-civ-spuse (<1%), Married-civspouse (<1%), Married-cv-spouse (<1%), Married-iv-spouse (<1%), Married-pouse-absent (<1%), Married-souse-absent (<1%), Married-spose-absent (<1%), Married-spoue-absent (<1%), Married-spous-absent (<1%), Married-spouse-abent (<1%), Married-spouse-absen (<1%), Married-spouse-abset (<1%), Married-spouse-absnt (<1%), Married-spouse-asent (<1%), Married-spouse-bsent (<1%), Married-spouseabsent (<1%), Married-spuse-absent (<1%), MarriedAF-spouse (<1%), Marriedciv-spouse (<1%), Marriedspouse-absent (<1%), Mrried-AF-spouse (<1%), Mrried-civ-spouse (<1%), Mrried-spouse-absent (<1%), Neer-married (<1%), Neve-married (<1%), Never-arried (<1%), Never-maried (<1%), Never-marred (<1%), Never-marrid (<1%), Never-marrie (<1%), Never-mrried (<1%), Nevermarried (<1%), Nevr-married (<1%), Nver-married (<1%), Searated (<1%), Sepaated (<1%), Separaed (<1%), Separatd (<1%), Separate (<1%), Separted (<1%), Seprated (<1%), Sparated (<1%), Wdowed (<1%), Widoed (<1%), Widowd (<1%), Widowe (<1%), Widwed (<1%), Wiowed (<1%), arried-AF-spouse (<1%), arried-civ-spouse (<1%), arried-spouse-absent (<1%), eparated (<1%), ever-married (<1%), idowed (<1%), ivorced (<1%), nan (~50%). "
+    }
+    path {
+      step: "marital-status"
+    }
+  }
+}
+anomaly_info {
+  key: "occupation"
+  value {
+    description: "Examples contain values missing from the schema: Ad-clerical (<1%), Adm-cerical (<1%), Adm-cleical (<1%), Adm-clercal (<1%), Adm-clerial (<1%), Adm-clerica (<1%), Adm-clericl (<1%), Adm-clrical (<1%), Adm-lerical (<1%), Admclerical (<1%), Am-clerical (<1%), Ared-Forces (<1%), Armed-Fores (<1%), Armed-orces (<1%), Caft-repair (<1%), Craf-repair (<1%), Craft-epair (<1%), Craft-reair (<1%), Craft-repai (<1%), Craft-repar (<1%), Craft-repir (<1%), Craft-rpair (<1%), Craftrepair (<1%), Crat-repair (<1%), Crft-repair (<1%), Eec-managerial (<1%), Exc-managerial (<1%), Exe-managerial (<1%), Exec-anagerial (<1%), Exec-maagerial (<1%), Exec-manaerial (<1%), Exec-manageial (<1%), Exec-manageral (<1%), Exec-manageria (<1%), Exec-manageril (<1%), Exec-managrial (<1%), Exec-mangerial (<1%), Exec-mnagerial (<1%), Execmanagerial (<1%), Faming-fishing (<1%), Faring-fishing (<1%), Farmig-fishing (<1%), Farmin-fishing (<1%), Farming-fihing (<1%), Farming-fishig (<1%), Farming-fishin (<1%), Farming-fishng (<1%), Farming-fising (<1%), Farming-fshing (<1%), Farming-ishing (<1%), Farmingfishing (<1%), Farmng-fishing (<1%), Frming-fishing (<1%), Hadlers-cleaners (<1%), Handers-cleaners (<1%), Handler-cleaners (<1%), Handlers-ceaners (<1%), Handlers-claners (<1%), Handlers-cleaers (<1%), Handlers-cleaner (<1%), Handlers-cleanes (<1%), Handlers-cleanrs (<1%), Handlers-cleners (<1%), Handlers-leaners (<1%), Handlerscleaners (<1%), Handles-cleaners (<1%), Handlrs-cleaners (<1%), Hanlers-cleaners (<1%), Hndlers-cleaners (<1%), Machie-op-inspct (<1%), Machin-op-inspct (<1%), Machine-o-inspct (<1%), Machine-op-inpct (<1%), Machine-op-insct (<1%), Machine-op-inspc (<1%), Machine-op-inspt (<1%), Machine-op-ispct (<1%), Machine-op-nspct (<1%), Machine-opinspct (<1%), Machine-p-inspct (<1%), Machineop-inspct (<1%), Machne-op-inspct (<1%), Macine-op-inspct (<1%), Mahine-op-inspct (<1%), Mchine-op-inspct (<1%), Oher-service (<1%), Oter-service (<1%), Othe-service (<1%), Other-ervice (<1%), Other-serice (<1%), Other-servce (<1%), Other-servic (<1%), Other-servie (<1%), Other-sevice (<1%), Other-srvice (<1%), Otherservice (<1%), Othr-service (<1%), Piv-house-serv (<1%), Pof-specialty (<1%), Potective-serv (<1%), Prf-specialty (<1%), Pri-house-serv (<1%), Priv-hose-serv (<1%), Priv-houe-serv (<1%), Priv-hous-serv (<1%), Priv-house-erv (<1%), Priv-house-ser (<1%), Priv-house-sev (<1%), Priv-house-srv (<1%), Priv-houseserv (<1%), Priv-huse-serv (<1%), Priv-ouse-serv (<1%), Privhouse-serv (<1%), Pro-specialty (<1%), Proective-serv (<1%), Prof-pecialty (<1%), Prof-secialty (<1%), Prof-spcialty (<1%), Prof-specalty (<1%), Prof-specialt (<1%), Prof-specialy (<1%), Prof-speciaty (<1%), Prof-specilty (<1%), Prof-speialty (<1%), Profspecialty (<1%), Protctive-serv (<1%), Protecive-serv (<1%), Protectie-serv (<1%), Protectiv-serv (<1%), Protective-erv (<1%), Protective-ser (<1%), Protective-sev (<1%), Protective-srv (<1%), Protectiveserv (<1%), Protectve-serv (<1%), Protetive-serv (<1%), Prtective-serv (<1%), Prv-house-serv (<1%), Saes (<1%), Sale (<1%), Sals (<1%), Sles (<1%), Tansport-moving (<1%), Tch-support (<1%), Tec-support (<1%), Tech-spport (<1%), Tech-suport (<1%), Tech-suppor (<1%), Tech-suppot (<1%), Tech-supprt (<1%), Tech-upport (<1%), Techsupport (<1%), Teh-support (<1%), Tranport-moving (<1%), Transort-moving (<1%), Transpor-moving (<1%), Transport-moing (<1%), Transport-movig (<1%), Transport-movin (<1%), Transport-movng (<1%), Transport-mving (<1%), Transport-oving (<1%), Transportmoving (<1%), Transpot-moving (<1%), Transprt-moving (<1%), Trasport-moving (<1%), Trnsport-moving (<1%), achine-op-inspct (<1%), ales (<1%), an (<1%), andlers-cleaners (<1%), arming-fishing (<1%), dm-clerical (<1%), ech-support (<1%), na (<1%), nn (<1%), raft-repair (<1%), ransport-moving (<1%), riv-house-serv (<1%), rof-specialty (<1%), rotective-serv (<1%), ther-service (<1%), xec-managerial (<1%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Ad-clerical (<1%), Adm-cerical (<1%), Adm-cleical (<1%), Adm-clercal (<1%), Adm-clerial (<1%), Adm-clerica (<1%), Adm-clericl (<1%), Adm-clrical (<1%), Adm-lerical (<1%), Admclerical (<1%), Am-clerical (<1%), Ared-Forces (<1%), Armed-Fores (<1%), Armed-orces (<1%), Caft-repair (<1%), Craf-repair (<1%), Craft-epair (<1%), Craft-reair (<1%), Craft-repai (<1%), Craft-repar (<1%), Craft-repir (<1%), Craft-rpair (<1%), Craftrepair (<1%), Crat-repair (<1%), Crft-repair (<1%), Eec-managerial (<1%), Exc-managerial (<1%), Exe-managerial (<1%), Exec-anagerial (<1%), Exec-maagerial (<1%), Exec-manaerial (<1%), Exec-manageial (<1%), Exec-manageral (<1%), Exec-manageria (<1%), Exec-manageril (<1%), Exec-managrial (<1%), Exec-mangerial (<1%), Exec-mnagerial (<1%), Execmanagerial (<1%), Faming-fishing (<1%), Faring-fishing (<1%), Farmig-fishing (<1%), Farmin-fishing (<1%), Farming-fihing (<1%), Farming-fishig (<1%), Farming-fishin (<1%), Farming-fishng (<1%), Farming-fising (<1%), Farming-fshing (<1%), Farming-ishing (<1%), Farmingfishing (<1%), Farmng-fishing (<1%), Frming-fishing (<1%), Hadlers-cleaners (<1%), Handers-cleaners (<1%), Handler-cleaners (<1%), Handlers-ceaners (<1%), Handlers-claners (<1%), Handlers-cleaers (<1%), Handlers-cleaner (<1%), Handlers-cleanes (<1%), Handlers-cleanrs (<1%), Handlers-cleners (<1%), Handlers-leaners (<1%), Handlerscleaners (<1%), Handles-cleaners (<1%), Handlrs-cleaners (<1%), Hanlers-cleaners (<1%), Hndlers-cleaners (<1%), Machie-op-inspct (<1%), Machin-op-inspct (<1%), Machine-o-inspct (<1%), Machine-op-inpct (<1%), Machine-op-insct (<1%), Machine-op-inspc (<1%), Machine-op-inspt (<1%), Machine-op-ispct (<1%), Machine-op-nspct (<1%), Machine-opinspct (<1%), Machine-p-inspct (<1%), Machineop-inspct (<1%), Machne-op-inspct (<1%), Macine-op-inspct (<1%), Mahine-op-inspct (<1%), Mchine-op-inspct (<1%), Oher-service (<1%), Oter-service (<1%), Othe-service (<1%), Other-ervice (<1%), Other-serice (<1%), Other-servce (<1%), Other-servic (<1%), Other-servie (<1%), Other-sevice (<1%), Other-srvice (<1%), Otherservice (<1%), Othr-service (<1%), Piv-house-serv (<1%), Pof-specialty (<1%), Potective-serv (<1%), Prf-specialty (<1%), Pri-house-serv (<1%), Priv-hose-serv (<1%), Priv-houe-serv (<1%), Priv-hous-serv (<1%), Priv-house-erv (<1%), Priv-house-ser (<1%), Priv-house-sev (<1%), Priv-house-srv (<1%), Priv-houseserv (<1%), Priv-huse-serv (<1%), Priv-ouse-serv (<1%), Privhouse-serv (<1%), Pro-specialty (<1%), Proective-serv (<1%), Prof-pecialty (<1%), Prof-secialty (<1%), Prof-spcialty (<1%), Prof-specalty (<1%), Prof-specialt (<1%), Prof-specialy (<1%), Prof-speciaty (<1%), Prof-specilty (<1%), Prof-speialty (<1%), Profspecialty (<1%), Protctive-serv (<1%), Protecive-serv (<1%), Protectie-serv (<1%), Protectiv-serv (<1%), Protective-erv (<1%), Protective-ser (<1%), Protective-sev (<1%), Protective-srv (<1%), Protectiveserv (<1%), Protectve-serv (<1%), Protetive-serv (<1%), Prtective-serv (<1%), Prv-house-serv (<1%), Saes (<1%), Sale (<1%), Sals (<1%), Sles (<1%), Tansport-moving (<1%), Tch-support (<1%), Tec-support (<1%), Tech-spport (<1%), Tech-suport (<1%), Tech-suppor (<1%), Tech-suppot (<1%), Tech-supprt (<1%), Tech-upport (<1%), Techsupport (<1%), Teh-support (<1%), Tranport-moving (<1%), Transort-moving (<1%), Transpor-moving (<1%), Transport-moing (<1%), Transport-movig (<1%), Transport-movin (<1%), Transport-movng (<1%), Transport-mving (<1%), Transport-oving (<1%), Transportmoving (<1%), Transpot-moving (<1%), Transprt-moving (<1%), Trasport-moving (<1%), Trnsport-moving (<1%), achine-op-inspct (<1%), ales (<1%), an (<1%), andlers-cleaners (<1%), arming-fishing (<1%), dm-clerical (<1%), ech-support (<1%), na (<1%), nn (<1%), raft-repair (<1%), ransport-moving (<1%), riv-house-serv (<1%), rof-specialty (<1%), rotective-serv (<1%), ther-service (<1%), xec-managerial (<1%). "
+    }
+    path {
+      step: "occupation"
+    }
+  }
+}
+anomaly_info {
+  key: "race"
+  value {
+    description: "Examples contain values missing from the schema: Aer-Indian-Eskimo (<1%), Aian-Pac-Islander (<1%), Ame-Indian-Eskimo (<1%), Amer-Idian-Eskimo (<1%), Amer-Indan-Eskimo (<1%), Amer-India-Eskimo (<1%), Amer-Indian-Ekimo (<1%), Amer-Indian-Esimo (<1%), Amer-Indian-Eskim (<1%), Amer-Indian-Eskio (<1%), Amer-Indian-Eskmo (<1%), Amer-Indian-skimo (<1%), Amer-IndianEskimo (<1%), Amer-Indin-Eskimo (<1%), Amer-Inian-Eskimo (<1%), Amer-ndian-Eskimo (<1%), AmerIndian-Eskimo (<1%), Amr-Indian-Eskimo (<1%), Asan-Pac-Islander (<1%), Asia-Pac-Islander (<1%), Asian-Pa-Islander (<1%), Asian-Pac-Ilander (<1%), Asian-Pac-Isander (<1%), Asian-Pac-Islader (<1%), Asian-Pac-Islande (<1%), Asian-Pac-Islandr (<1%), Asian-Pac-Islaner (<1%), Asian-Pac-Islnder (<1%), Asian-Pac-slander (<1%), Asian-PacIslander (<1%), Asian-Pc-Islander (<1%), Asian-ac-Islander (<1%), AsianPac-Islander (<1%), Asin-Pac-Islander (<1%), Back (<1%), Blac (<1%), Blak (<1%), Blck (<1%), Oher (<1%), Oter (<1%), Othe (<1%), Othr (<1%), Whie (~1%), Whit (~1%), Whte (~1%), Wite (~1%), hite (~1%), lack (<1%), mer-Indian-Eskimo (<1%), nan (~50%), sian-Pac-Islander (<1%), ther (<1%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Aer-Indian-Eskimo (<1%), Aian-Pac-Islander (<1%), Ame-Indian-Eskimo (<1%), Amer-Idian-Eskimo (<1%), Amer-Indan-Eskimo (<1%), Amer-India-Eskimo (<1%), Amer-Indian-Ekimo (<1%), Amer-Indian-Esimo (<1%), Amer-Indian-Eskim (<1%), Amer-Indian-Eskio (<1%), Amer-Indian-Eskmo (<1%), Amer-Indian-skimo (<1%), Amer-IndianEskimo (<1%), Amer-Indin-Eskimo (<1%), Amer-Inian-Eskimo (<1%), Amer-ndian-Eskimo (<1%), AmerIndian-Eskimo (<1%), Amr-Indian-Eskimo (<1%), Asan-Pac-Islander (<1%), Asia-Pac-Islander (<1%), Asian-Pa-Islander (<1%), Asian-Pac-Ilander (<1%), Asian-Pac-Isander (<1%), Asian-Pac-Islader (<1%), Asian-Pac-Islande (<1%), Asian-Pac-Islandr (<1%), Asian-Pac-Islaner (<1%), Asian-Pac-Islnder (<1%), Asian-Pac-slander (<1%), Asian-PacIslander (<1%), Asian-Pc-Islander (<1%), Asian-ac-Islander (<1%), AsianPac-Islander (<1%), Asin-Pac-Islander (<1%), Back (<1%), Blac (<1%), Blak (<1%), Blck (<1%), Oher (<1%), Oter (<1%), Othe (<1%), Othr (<1%), Whie (~1%), Whit (~1%), Whte (~1%), Wite (~1%), hite (~1%), lack (<1%), mer-Indian-Eskimo (<1%), nan (~50%), sian-Pac-Islander (<1%), ther (<1%). "
+    }
+    path {
+      step: "race"
+    }
+  }
+}
+anomaly_info {
+  key: "relationship"
+  value {
+    description: "Examples contain values missing from the schema: Hsband (<1%), Huband (<1%), Husand (<1%), Husbad (<1%), Husban (<1%), Husbnd (<1%), No-in-family (<1%), Not-i-family (<1%), Not-in-amily (<1%), Not-in-faily (<1%), Not-in-famil (<1%), Not-in-famiy (<1%), Not-in-famly (<1%), Not-in-fmily (<1%), Not-infamily (<1%), Not-n-family (<1%), Notin-family (<1%), Nt-in-family (<1%), Oher-relative (<1%), On-child (<1%), Oter-relative (<1%), Othe-relative (<1%), Other-elative (<1%), Other-reative (<1%), Other-relaive (<1%), Other-relatie (<1%), Other-relativ (<1%), Other-relatve (<1%), Other-reltive (<1%), Other-rlative (<1%), Otherrelative (<1%), Othr-relative (<1%), Ow-child (<1%), Own-chid (<1%), Own-chil (<1%), Own-chld (<1%), Own-cild (<1%), Own-hild (<1%), Ownchild (<1%), Umarried (<1%), Unarried (<1%), Unmaried (<1%), Unmarred (<1%), Unmarrid (<1%), Unmarrie (<1%), Unmrried (<1%), Wfe (<1%), Wie (<1%), Wif (<1%), ife (<1%), nan (~50%), nmarried (<1%), ot-in-family (<1%), ther-relative (<1%), usband (<1%), wn-child (<1%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Hsband (<1%), Huband (<1%), Husand (<1%), Husbad (<1%), Husban (<1%), Husbnd (<1%), No-in-family (<1%), Not-i-family (<1%), Not-in-amily (<1%), Not-in-faily (<1%), Not-in-famil (<1%), Not-in-famiy (<1%), Not-in-famly (<1%), Not-in-fmily (<1%), Not-infamily (<1%), Not-n-family (<1%), Notin-family (<1%), Nt-in-family (<1%), Oher-relative (<1%), On-child (<1%), Oter-relative (<1%), Othe-relative (<1%), Other-elative (<1%), Other-reative (<1%), Other-relaive (<1%), Other-relatie (<1%), Other-relativ (<1%), Other-relatve (<1%), Other-reltive (<1%), Other-rlative (<1%), Otherrelative (<1%), Othr-relative (<1%), Ow-child (<1%), Own-chid (<1%), Own-chil (<1%), Own-chld (<1%), Own-cild (<1%), Own-hild (<1%), Ownchild (<1%), Umarried (<1%), Unarried (<1%), Unmaried (<1%), Unmarred (<1%), Unmarrid (<1%), Unmarrie (<1%), Unmrried (<1%), Wfe (<1%), Wie (<1%), Wif (<1%), ife (<1%), nan (~50%), nmarried (<1%), ot-in-family (<1%), ther-relative (<1%), usband (<1%), wn-child (<1%). "
+    }
+    path {
+      step: "relationship"
+    }
+  }
+}
+anomaly_info {
+  key: "sex"
+  value {
+    description: "Examples contain values missing from the schema: Feale (~1%), Femae (~1%), Femal (~1%), Femle (<1%), Fmale (<1%), Mae (~2%), Mal (~2%), Mle (~2%), ale (~2%), emale (~1%), nan (~50%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Feale (~1%), Femae (~1%), Femal (~1%), Femle (<1%), Fmale (<1%), Mae (~2%), Mal (~2%), Mle (~2%), ale (~2%), emale (~1%), nan (~50%). "
+    }
+    path {
+      step: "sex"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass"
+  value {
+    description: "Examples contain values missing from the schema: Fderal-gov (<1%), Fedeal-gov (<1%), Federa-gov (<1%), Federal-go (<1%), Federal-gv (<1%), Federal-ov (<1%), Federalgov (<1%), Federl-gov (<1%), Fedral-gov (<1%), Feeral-gov (<1%), Lcal-gov (<1%), Loal-gov (<1%), Loca-gov (<1%), Local-go (<1%), Local-gv (<1%), Local-ov (<1%), Localgov (<1%), Locl-gov (<1%), Neer-worked (<1%), Neve-worked (<1%), Never-orked (<1%), Never-woked (<1%), Never-wored (<1%), Never-workd (<1%), Never-worke (<1%), Never-wrked (<1%), Neverworked (<1%), Nevr-worked (<1%), Nver-worked (<1%), Pivate (~1%), Priate (<1%), Privae (~1%), Privat (~1%), Privte (<1%), Prvate (~1%), Sate-gov (<1%), Sef-emp-inc (<1%), Sef-emp-not-inc (<1%), Sel-emp-inc (<1%), Sel-emp-not-inc (<1%), Self-em-inc (<1%), Self-em-not-inc (<1%), Self-emp-ic (<1%), Self-emp-in (<1%), Self-emp-nc (<1%), Self-emp-no-inc (<1%), Self-emp-not-ic (<1%), Self-emp-not-in (<1%), Self-emp-not-nc (<1%), Self-emp-notinc (<1%), Self-emp-nt-inc (<1%), Self-emp-ot-inc (<1%), Self-empinc (<1%), Self-empnot-inc (<1%), Self-ep-inc (<1%), Self-ep-not-inc (<1%), Self-mp-inc (<1%), Self-mp-not-inc (<1%), Selfemp-inc (<1%), Selfemp-not-inc (<1%), Slf-emp-inc (<1%), Slf-emp-not-inc (<1%), Stae-gov (<1%), Stat-gov (<1%), State-go (<1%), State-gv (<1%), State-ov (<1%), Stategov (<1%), Stte-gov (<1%), Wihout-pay (<1%), Withot-pay (<1%), Withou-pay (<1%), Without-ay (<1%), Without-pa (<1%), Without-py (<1%), Withoutpay (<1%), Withut-pay (<1%), Wthout-pay (<1%), an (<1%), ederal-gov (<1%), elf-emp-inc (<1%), elf-emp-not-inc (<1%), ever-worked (<1%), ithout-pay (<1%), na (<1%), nn (<1%), ocal-gov (<1%), rivate (<1%), tate-gov (<1%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Fderal-gov (<1%), Fedeal-gov (<1%), Federa-gov (<1%), Federal-go (<1%), Federal-gv (<1%), Federal-ov (<1%), Federalgov (<1%), Federl-gov (<1%), Fedral-gov (<1%), Feeral-gov (<1%), Lcal-gov (<1%), Loal-gov (<1%), Loca-gov (<1%), Local-go (<1%), Local-gv (<1%), Local-ov (<1%), Localgov (<1%), Locl-gov (<1%), Neer-worked (<1%), Neve-worked (<1%), Never-orked (<1%), Never-woked (<1%), Never-wored (<1%), Never-workd (<1%), Never-worke (<1%), Never-wrked (<1%), Neverworked (<1%), Nevr-worked (<1%), Nver-worked (<1%), Pivate (~1%), Priate (<1%), Privae (~1%), Privat (~1%), Privte (<1%), Prvate (~1%), Sate-gov (<1%), Sef-emp-inc (<1%), Sef-emp-not-inc (<1%), Sel-emp-inc (<1%), Sel-emp-not-inc (<1%), Self-em-inc (<1%), Self-em-not-inc (<1%), Self-emp-ic (<1%), Self-emp-in (<1%), Self-emp-nc (<1%), Self-emp-no-inc (<1%), Self-emp-not-ic (<1%), Self-emp-not-in (<1%), Self-emp-not-nc (<1%), Self-emp-notinc (<1%), Self-emp-nt-inc (<1%), Self-emp-ot-inc (<1%), Self-empinc (<1%), Self-empnot-inc (<1%), Self-ep-inc (<1%), Self-ep-not-inc (<1%), Self-mp-inc (<1%), Self-mp-not-inc (<1%), Selfemp-inc (<1%), Selfemp-not-inc (<1%), Slf-emp-inc (<1%), Slf-emp-not-inc (<1%), Stae-gov (<1%), Stat-gov (<1%), State-go (<1%), State-gv (<1%), State-ov (<1%), Stategov (<1%), Stte-gov (<1%), Wihout-pay (<1%), Withot-pay (<1%), Withou-pay (<1%), Without-ay (<1%), Without-pa (<1%), Without-py (<1%), Withoutpay (<1%), Withut-pay (<1%), Wthout-pay (<1%), an (<1%), ederal-gov (<1%), elf-emp-inc (<1%), elf-emp-not-inc (<1%), ever-worked (<1%), ithout-pay (<1%), na (<1%), nn (<1%), ocal-gov (<1%), rivate (<1%), tate-gov (<1%). "
+    }
+    path {
+      step: "workclass"
+    }
+  }
+}
+anomaly_name_format: SERIALIZED_PATH

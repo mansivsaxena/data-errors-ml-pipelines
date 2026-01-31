@@ -1,0 +1,1150 @@
+baseline {
+  feature {
+    name: "age"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: FLOAT
+    presence {
+      min_count: 1
+    }
+  }
+  feature {
+    name: "workclass"
+    type: BYTES
+    domain: "workclass"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "education-num"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: FLOAT
+    presence {
+      min_count: 1
+    }
+  }
+  feature {
+    name: "marital-status"
+    type: BYTES
+    domain: "marital-status"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "occupation"
+    type: BYTES
+    domain: "occupation"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "relationship"
+    type: BYTES
+    domain: "relationship"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "race"
+    type: BYTES
+    domain: "race"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "sex"
+    type: BYTES
+    domain: "sex"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-gain"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: FLOAT
+    presence {
+      min_count: 1
+    }
+  }
+  feature {
+    name: "capital-loss"
+    type: FLOAT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "hours-per-week"
+    type: FLOAT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "income"
+    type: BYTES
+    domain: "income"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "age_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "age_is_negative"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "education-num_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "education-num_is_negative"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-gain_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-gain_is_negative"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-loss_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "capital-loss_is_negative"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "hours-per-week_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "hours-per-week_is_negative"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "workclass_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "marital-status_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "occupation_is_missing"
+    type: INT
+    bool_domain {
+    }
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "relationship_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "race_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "sex_is_missing"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  feature {
+    name: "total_missing_features"
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+    shape {
+      dim {
+        size: 1
+      }
+    }
+  }
+  string_domain {
+    name: "workclass"
+    value: "?"
+    value: "Federal-gov"
+    value: "Local-gov"
+    value: "Never-worked"
+    value: "Private"
+    value: "Self-emp-inc"
+    value: "Self-emp-not-inc"
+    value: "State-gov"
+    value: "Without-pay"
+    value: "nan"
+  }
+  string_domain {
+    name: "marital-status"
+    value: "Divorced"
+    value: "Married-AF-spouse"
+    value: "Married-civ-spouse"
+    value: "Married-spouse-absent"
+    value: "Never-married"
+    value: "Separated"
+    value: "Widowed"
+  }
+  string_domain {
+    name: "occupation"
+    value: "?"
+    value: "Adm-clerical"
+    value: "Armed-Forces"
+    value: "Craft-repair"
+    value: "Exec-managerial"
+    value: "Farming-fishing"
+    value: "Handlers-cleaners"
+    value: "Machine-op-inspct"
+    value: "Other-service"
+    value: "Priv-house-serv"
+    value: "Prof-specialty"
+    value: "Protective-serv"
+    value: "Sales"
+    value: "Tech-support"
+    value: "Transport-moving"
+    value: "nan"
+  }
+  string_domain {
+    name: "relationship"
+    value: "Husband"
+    value: "Not-in-family"
+    value: "Other-relative"
+    value: "Own-child"
+    value: "Unmarried"
+    value: "Wife"
+  }
+  string_domain {
+    name: "race"
+    value: "Amer-Indian-Eskimo"
+    value: "Asian-Pac-Islander"
+    value: "Black"
+    value: "Other"
+    value: "White"
+  }
+  string_domain {
+    name: "sex"
+    value: "Female"
+    value: "Male"
+  }
+  string_domain {
+    name: "income"
+    value: "<=50K"
+    value: ">50K"
+  }
+}
+anomaly_info {
+  key: "income_<=50K"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "income_<=50K"
+    }
+  }
+}
+anomaly_info {
+  key: "income_>50K"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "income_>50K"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status"
+  value {
+    description: "Examples contain values missing from the schema: Default (~27%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Default (~27%). "
+    }
+    path {
+      step: "marital-status"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status_Default"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "marital-status_Default"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status_Divorced"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "marital-status_Divorced"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status_Married-AF-spouse"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "marital-status_Married-AF-spouse"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status_Married-civ-spouse"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "marital-status_Married-civ-spouse"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status_Married-spouse-absent"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "marital-status_Married-spouse-absent"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status_Never-married"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "marital-status_Never-married"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status_Separated"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "marital-status_Separated"
+    }
+  }
+}
+anomaly_info {
+  key: "marital-status_Widowed"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "marital-status_Widowed"
+    }
+  }
+}
+anomaly_info {
+  key: "occupation"
+  value {
+    description: "Examples contain values missing from the schema: Default (~27%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Default (~27%). "
+    }
+    path {
+      step: "occupation"
+    }
+  }
+}
+anomaly_info {
+  key: "occupation_lab"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "occupation_lab"
+    }
+  }
+}
+anomaly_info {
+  key: "race"
+  value {
+    description: "Examples contain values missing from the schema: Default (~27%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Default (~27%). "
+    }
+    path {
+      step: "race"
+    }
+  }
+}
+anomaly_info {
+  key: "race_Amer-Indian-Eskimo"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "race_Amer-Indian-Eskimo"
+    }
+  }
+}
+anomaly_info {
+  key: "race_Asian-Pac-Islander"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "race_Asian-Pac-Islander"
+    }
+  }
+}
+anomaly_info {
+  key: "race_Black"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "race_Black"
+    }
+  }
+}
+anomaly_info {
+  key: "race_Default"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "race_Default"
+    }
+  }
+}
+anomaly_info {
+  key: "race_Other"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "race_Other"
+    }
+  }
+}
+anomaly_info {
+  key: "race_White"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "race_White"
+    }
+  }
+}
+anomaly_info {
+  key: "relationship"
+  value {
+    description: "Examples contain values missing from the schema: Default (~27%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Default (~27%). "
+    }
+    path {
+      step: "relationship"
+    }
+  }
+}
+anomaly_info {
+  key: "relationship_Default"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "relationship_Default"
+    }
+  }
+}
+anomaly_info {
+  key: "relationship_Husband"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "relationship_Husband"
+    }
+  }
+}
+anomaly_info {
+  key: "relationship_Not-in-family"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "relationship_Not-in-family"
+    }
+  }
+}
+anomaly_info {
+  key: "relationship_Other-relative"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "relationship_Other-relative"
+    }
+  }
+}
+anomaly_info {
+  key: "relationship_Own-child"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "relationship_Own-child"
+    }
+  }
+}
+anomaly_info {
+  key: "relationship_Unmarried"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "relationship_Unmarried"
+    }
+  }
+}
+anomaly_info {
+  key: "relationship_Wife"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "relationship_Wife"
+    }
+  }
+}
+anomaly_info {
+  key: "sex"
+  value {
+    description: "Examples contain values missing from the schema: Default (~27%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Default (~27%). "
+    }
+    path {
+      step: "sex"
+    }
+  }
+}
+anomaly_info {
+  key: "sex_Default"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "sex_Default"
+    }
+  }
+}
+anomaly_info {
+  key: "sex_Female"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "sex_Female"
+    }
+  }
+}
+anomaly_info {
+  key: "sex_Male"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "sex_Male"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass"
+  value {
+    description: "Examples contain values missing from the schema: Default (~27%). "
+    severity: ERROR
+    short_description: "Unexpected string values"
+    reason {
+      type: ENUM_TYPE_UNEXPECTED_STRING_VALUES
+      short_description: "Unexpected string values"
+      description: "Examples contain values missing from the schema: Default (~27%). "
+    }
+    path {
+      step: "workclass"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_?"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_?"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_Default"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_Default"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_Federal-gov"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_Federal-gov"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_Local-gov"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_Local-gov"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_Never-worked"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_Never-worked"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_Private"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_Private"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_Self-emp-inc"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_Self-emp-inc"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_Self-emp-not-inc"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_Self-emp-not-inc"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_State-gov"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_State-gov"
+    }
+  }
+}
+anomaly_info {
+  key: "workclass_Without-pay"
+  value {
+    description: "New column (column in data but not in schema)"
+    severity: ERROR
+    short_description: "New column"
+    reason {
+      type: SCHEMA_NEW_COLUMN
+      short_description: "New column"
+      description: "New column (column in data but not in schema)"
+    }
+    path {
+      step: "workclass_Without-pay"
+    }
+  }
+}
+anomaly_name_format: SERIALIZED_PATH
