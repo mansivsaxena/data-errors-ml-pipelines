@@ -34,6 +34,12 @@ The notebook tests two models through four stages:
 
 ## How to Run
 
+### Clone Repository
+```bash
+git clone https://github.com/mansivsaxena/data-errors-ml-pipelines.git
+cd data-errors-ml-pipelines/adults-dataset-categorical-numerical
+```
+
 ### Requirements
 - Python 3.11 (required for TensorFlow Data Validation)
 - Google Colab (recommended) or local Jupyter environment
@@ -41,7 +47,7 @@ The notebook tests two models through four stages:
 
 ### Setup
 
-1. Open notebook in Google Colab
+1. Open `adult_data_clean_corrupt_eval.ipynb` in Google Colab
 2. Run the setup cells to install dependencies:
 ```bash
 pip install datasets scikit-learn pandas numpy matplotlib
