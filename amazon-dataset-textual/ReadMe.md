@@ -11,7 +11,7 @@ Evaluates how data corruption affects ML model performance on Amazon product rev
 
 ## Evaluation Pipeline
 
-The notebook tests a single model through four cleaning levels:
+The notebook tests a single model through four cleaning techniques:
 
 1. **Baseline** - Clean data performance
 2. **Basic Cleaning** - Drop nulls, standardize text, fix encoding
@@ -32,11 +32,11 @@ The notebook tests a single model through four cleaning levels:
 - Heavy missing (25% text + 10% labels)
 - All corruptions combined
 
-**Cleaning Levels:**
-- **Basic (L1):** Drop missing ratings, fill missing text, standardize encoding, lowercase, valid range enforcement
-- **Heuristic (L2):** Remove URLs, spam detection, length filtering, garbled text removal
-- **Semantic (L3):** Abbreviation expansion, repeated character reduction, negation handling, lemmatization
-- **Model-Aware (L4):** L3 + Cleanlab confidence-based sample reweighting
+**Cleaning Techniques:**
+- **Basic:** Drop missing ratings, fill missing text, standardize encoding, lowercase, valid range enforcement
+- **Heuristic:** Remove URLs, spam detection, length filtering, garbled text removal
+- **Semantic:** Abbreviation expansion, repeated character reduction, negation handling, lemmatization
+- **Model-Aware:** L3 + Cleanlab confidence-based sample reweighting
 
 ## Getting Started
 
