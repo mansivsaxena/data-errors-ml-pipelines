@@ -27,7 +27,7 @@ Two datasets were in this project, each being used to test different types of da
 1. **Data Preparation**: Load and preprocess the datasets
 2. **Train Baseline**: Train the model on the raw data
 3. **Corruption Injection**: Apply various corruption types to simulate data quality issues
-4. **Train Corrupted**: Train the model on the corrupted datat
+4. **Train Corrupted**: Train the model on the corrupted data
 3. **Cleaning Application**: Use different cleaning methods including baseline and Cleanlab approaches
 4. **Model Training**: Train ML models on cleaned datasets
 5. **Evaluation**: Compare performance metrics, computational costs, and data retention rates
