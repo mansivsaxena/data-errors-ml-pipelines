@@ -1,0 +1,24 @@
+{
+  "n_experiments": 9,
+  "mean_severity_score": 0.07401534152758696,
+  "median_severity_score": 0.09516258196404037,
+  "top_3_by_score": [
+    {
+      "experiment": "01_missing_text_data",
+      "tfdv_severity_score": 0.09516258196404037,
+      "n_anomalies_total": 1
+    },
+    {
+      "experiment": "02_broken_chars_data",
+      "tfdv_severity_score": 0.09516258196404037,
+      "n_anomalies_total": 1
+    },
+    {
+      "experiment": "03_swapped_text_data",
+      "tfdv_severity_score": 0.09516258196404037,
+      "n_anomalies_total": 1
+    }
+  ],
+  "schema_path": "/content/results/tfdv_eval/baseline_schema.pbtxt",
+  "results_csv": "/content/results/tfdv_eval/tfdv_analysis.csv"
+}

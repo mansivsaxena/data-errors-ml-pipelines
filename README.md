@@ -2,9 +2,11 @@
 
 ## Data Errors in ML Pipelines
 
+Different data types suffer from corruption specific to each type. For example, negation errors are specific to numeric data. These data corruptions can affect an ML model’s performance to varying degrees. Since different data types can suffer from different corruptions, the effectiveness of cleaning techniques, whether it be model accuracy improvement, time taken to clean, or rows preserved, can vary depending on the type of corruption. Some cleaning techniques are also data type specific, so they cannot be compared directly. Thus, it would be difficult to know which cleaning techniques are worth using depending on your data. This project aims to bridge that knowledge gap, helping developers save time and resources when cleaning their datasets before training their models.
+
 ## Overview
 
-This project investigates the impact of data corruptions and cleaning techniques on machine learning pipelines. The analysis evaluates various corruption types, cleaning methods, and their effects on model performance, computational costs, and data quality.
+This project follows the ‘ML Pipelines and Erroneous Data’ theme as a part of the Data Preparation course at UvA. It investigates the impact of data corruptions and cleaning techniques on machine learning pipelines. The analysis evaluates various corruption types, cleaning methods, and their effects on model performance, computational costs, and data quality.
 
 ## Key Features
 
@@ -15,6 +17,10 @@ This project investigates the impact of data corruptions and cleaning techniques
 
 ## Dataset
 
+Two datasets were in this project, each being used to test different types of data corruption and cleaning techniques
+- **Amazon Reviews**: The dataset consists of product reviews from Amazon in 2023. For this dataset, we investigated textual corruptions and the appropriate cleaning techniques. We used the review text to predict the rating (1-5) for the product.
+
+- **Adult Income**: The Adult Income dataset includes a binary classification of whether an individual’s annual salary is over 50,000, along with their personal information. This dataset was used to investigate categorical and numerical corruptions along with the appropriate cleaning techniques. This project uses the  numerical features: ‘age’, ‘educational-num’, ‘capital-gain’, ‘capital-loss’, ‘hours-per-week’, and categorical features: ‘workclass’, ‘marital-status’, ‘occupation’, ‘relationship’, ‘race’, ‘gender’ in order to predict if the individual’s annual salary is over 50,000.
 
 ## Methodology
 
@@ -50,7 +56,13 @@ Key findings are visualized in the `figures/` directory with plots for:
 2. **Install dependencies**
 3. **Run the main evaluation notebook**:
    ```bash
+   # For the Amazon Reviews dataset
    jupyter notebook amazon-dataset-textual/notebook/amazon_data_clean_corrupt_eval.ipynb
+   ```
+
+   ```bash
+   # For the Adult Income dataset
+   jupyter notebook adults-dataset-categorical-numerical/notebook/adult_data_clean_corrupt_eval.ipynb
    ```
 4. **Execute the notebook cells** to reproduce the analysis
 
