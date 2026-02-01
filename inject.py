@@ -270,4 +270,4 @@ test_functions = [
     ("CATEGORY_TYPO", category_typo, {}),
     ("CATEGORY_DEFAULT", category_default, {}),
 ]
-print("✅ Corruption functions defined")
+print("Corruption functions defined")
