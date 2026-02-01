@@ -67,6 +67,18 @@ pip install tensorflow-data-validation==1.15.1
 
 Note: Runtime will restart after TFDV installation. Re-run environment setup cells before continuing.
 
+### Using Python Scripts
+
+- `clean_num.py`: Contains utility functions for data cleaning
+- `inject.py`: Functions to simulate data corruptions
+
+You can import and use these in your own scripts:
+
+```python
+from python_scripts.clean_num import clean_data
+from python_scripts.inject import add_noise
+```
+
 ## Outputs
 
 ### Results Files

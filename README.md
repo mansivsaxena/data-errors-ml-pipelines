@@ -66,18 +66,6 @@ Key findings are visualized in the `figures/` directory with plots for:
    ```
 4. **Execute the notebook cells** to reproduce the analysis
 
-### Using Python Scripts
-
-- `cleaning_functions.py`: Contains utility functions for data cleaning
-- `corruptions.py`: Functions to simulate data corruptions
-
-You can import and use these in your own scripts:
-
-```python
-from python_scripts.cleaning_functions import clean_data
-from python_scripts.corruptions import add_noise
-```
-
 ## Dependencies
 
 - pandas

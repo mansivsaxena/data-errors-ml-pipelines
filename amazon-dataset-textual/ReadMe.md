@@ -76,6 +76,18 @@ Note: Runtime will restart after TFDV installation. Re-run environment setup cel
 
 For TFDV analysis, open `amazon_data_tfdv_analysis.ipynb` after completing the main evaluation notebook.
 
+### Using Python Scripts
+
+- `cleaning_functions.py`: Contains utility functions for data cleaning
+- `corruptions.py`: Functions to simulate data corruptions
+
+You can import and use these in your own scripts:
+
+```python
+from python_scripts.cleaning_functions import clean_data
+from python_scripts.corruptions import add_noise
+```
+
 ## Outputs
 
 ### Results Files
